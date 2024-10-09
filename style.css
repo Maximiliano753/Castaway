@@ -1,0 +1,374 @@
+.container {
+    box-sizing: border-box;
+  
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+  }
+  .header {
+    padding: 25px 0;  
+    
+    position: relative;
+    z-index: 10;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  
+  .header__logo {
+  
+  }
+  
+  .header__nav {
+    list-style-type: none;
+  }
+  
+  .header__list {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: 25px;
+  }
+  
+  .header__nav a {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .header__nav a.active {
+    opacity: 1;
+    color: aqua;
+    list-style-type: none;
+  }
+  
+  .header__nav a:hover {
+    opacity: 0.9;
+  }
+  body{
+    background-color: rgba(0, 0, 0, 0.89);
+  }
+  .container-podcast{
+    width: 1400px;
+    margin-left: 70px;
+    display: flex;
+    
+  }
+  .container-podcast .text{
+    width: 530px;
+    height: 610px;
+    font-size: 40px;
+    margin-top: 200px;
+    color: aliceblue;
+    padding-left: 50px;
+  }
+
+  .listen-container {
+    list-style-type: none; /* Убираем маркеры */
+    padding: 0;
+    margin: 0; 
+    display: flex; /* Используем flexbox для размещения элементов в линию */
+}
+
+.listen-container li {
+    margin-right: 25px; /* Расстояние между элементами (при необходимости) */
+}
+
+.listen-container li:last-child {
+    margin-right: 0; /* Убираем отступ справа у последнего элемента */
+}
+.container-podcast .text .line-text{
+    width: 135px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -320px;
+    
+}
+.container-podcast .podcast .line-2{
+    position: absolute;
+    margin-left: -670px;
+    margin-top: -15px;
+}
+.container-podcast .podcast .line-1{
+    position: absolute;
+    margin-left: -620px;
+    margin-top: -25px;
+}
+.container-podcast .podcast .line-3{
+    position: absolute;
+    margin-left: -680px;
+    margin-top: 30px;
+}
+.container-episodes .text-with-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.container-episodes .text-with-btn h1{
+    margin-left: 70px;
+    font-size: 70px;
+    color: aliceblue;
+}
+.container-episodes .text-with-btn .btn{
+    margin-right: 70px;
+    font-size: 20px;
+    width: 178px;
+    height: 51px;
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.618);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.container-episodes-1 {
+    display: flex; /* Используем flexbox для размещения элементов */
+    flex-direction: column;
+}
+
+.container-episode-1 {
+    display: flex; /* Размещаем картинку и текст в одну линию */
+    align-items: flex-start; /* Выравнивание по верхнему краю */
+    margin: 20px 0; /* Отступы между эпизодами */
+    background-color: black;
+    width: 1360px;
+    height: 545px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+
+.episode-1 {
+  width: 389px;
+  height: 465px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.episode-1-container {
+    flex: 1; /* Позволяем контейнеру текста занимать оставшееся пространство */
+    margin-left: 40px;
+    color: aliceblue;
+    margin-top: 30px;
+    
+}
+
+.btn {
+    margin-top: 10px; /* Отступ сверху для кнопки */
+}
+.container-episodes-1 .container-episode-1 .episode-1-container .h2 {
+   width: 73px;
+   height: 27px;
+   background-color: darkgray;
+   display: flex;
+   justify-content: center; /* Центрируем по горизонтали */
+    align-items: center; /* Центрируем по вертикали */
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+.container-episodes-1 .container-episode-1 .episode-1-container h4 {
+    color: rgba(0, 255, 255, 0.618);
+    margin-top: 40px;
+    
+     
+ }
+ .container-episodes-1 .container-episode-1 .episode-1-container h1 {
+    width: 750px;
+    height: 141px;
+    font-size: 70px;
+    margin-top: 10px;
+ }
+ .container-episodes-1 .container-episode-1 .episode-1-container h2 {
+   width: 800px;
+   
+   
+   
+ }
+ .container-episodes-1 .container-episode-1 .episode-1-container .btn {
+    width: 208px;
+    height: 51px;
+    background-color: rgba(0, 255, 255, 0.618);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  .container-episodes-1 .container-episode-1 .episode-1-container .episode-2-h2 {
+    width: 136px;
+    height: 27px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center; /* Центрируем по горизонтали */
+     align-items: center; /* Центрируем по вертикали */
+     border-radius: 10px;
+     font-size: 15px;
+     
+ }
+ .container-jacob{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 1350px;
+    height: auto;
+    margin-left: 70px;
+    justify-content: space-between;
+ }
+ .container-jacob img{
+    width: 500px;
+    border-radius: 30px;
+    
+ }
+ .container-jacob .info{
+    width: 590px;
+    height: 448px;
+    
+ }
+ .container-jacob .info button img{
+    
+    width: 38px;
+    height: 71px;
+    
+ }
+ .container-jacob .info .btn-2 {
+    background-color: rgba(0, 255, 255, 0.618);
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+ }
+ .container-jacob .info h6 {
+    color: rgba(0, 255, 255, 0.618);
+    font-size: 15px;
+ }
+ .container-jacob .info h3 {
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: -10px;
+ }
+ .container-jacob .info h2 {
+    color: rgba(240, 248, 255, 0.297);
+    font-size: 20px;
+    margin-top: 10px;
+ }
+ .form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 40px;
+    margin-top: 100px;
+    width: 1350px;
+    height: 387px;
+    margin-left: 70px;
+ }
+ .form-container .form-text{
+    margin-top: 70px;
+   
+ }
+ .form-container .form-text h5{
+    color: rgba(0, 255, 255, 0.618);
+    margin-left: 70px;
+ }
+ .form-container .form-text h2{
+    color: aliceblue;
+    margin-left: 70px;
+    font-size: 50px;
+    width: 431px;
+ }
+ .form-container .form-input {
+    width: 522px;
+    height: 252px;
+    margin-top: 50px;    
+ }
+ .form-container .form-input input {
+    width: 460px;
+    height: 82px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.297);
+    margin-right: 30px;
+    font-size: 25px;
+    color: aliceblue;    
+    padding-left: 25px;
+ }
+ .form-container .form-input input::placeholder {
+    color:gray;
+    padding-left: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+ }
+ .form-container .form-input .sumbit {
+   color: aqua;
+   width: 220px;
+   height: 60px;
+   background-color: rgba(0, 255, 255, 0.618);
+   color: aliceblue;
+   text-align: center;
+   display: flex;
+   padding: 0;
+ }
+ table {
+     /* Ширина таблицы */
+    border-collapse: separate; /* Устанавливаем отдельные границы */
+    border-spacing: 30px; /* Отступы между ячейками */
+    margin-left: 40px;
+}
+td {
+    border: 1px solid #000; /* Граница ячеек */
+     /* Увеличиваем отступ внутри ячеек */
+     /* Выравнивание текста по центру */
+   width: 428px;
+   height: 150px;
+   border-radius: 20px;
+   background-color: #000;
+   
+}
+td h3{
+    text-align: left;
+    color: aliceblue;
+    margin: 10px;
+    width: 150px;
+    padding-left: 30px;
+}
+td .raiting{
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+td h5{
+    color: rgba(240, 248, 255, 0.297);
+    padding-left: 40px;
+}
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.container-contact .contact{
+    flex-direction: row;
+    color: aliceblue;
+    
+    margin-top: 35px;
+    padding-left: 200px;
+    
+}
+.container-contact .castaway-icon{
+    flex-direction: row;
+    color: #000;
+    margin-right: 100px;
+
+}
+.container-contact .contact-img{
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 150px;
+
+}
